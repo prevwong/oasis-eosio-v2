@@ -1,0 +1,197 @@
+info  2019-01-18T15:56:39.207 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+info  2019-01-18T15:56:39.214 thread-0  block_log.cpp:134             open                 ] Log is nonempty
+info  2019-01-18T15:56:39.215 thread-0  block_log.cpp:161             open                 ] Index is nonempty
+info  2019-01-18T15:56:39.230 thread-0  http_plugin.cpp:422           plugin_initialize    ] configured http to listen on 127.0.0.1:8888
+warn  2019-01-18T15:56:39.230 thread-0  history_plugin.cpp:321        plugin_initialize    ] --filter-on * enabled. This can fill shared_mem, causing nodeos to stop.
+info  2019-01-18T15:56:39.232 thread-0  net_plugin.cpp:2898           plugin_initialize    ] Initialize net plugin
+info  2019-01-18T15:56:39.232 thread-0  net_plugin.cpp:2924           plugin_initialize    ] host: 0.0.0.0 port: 9876 
+info  2019-01-18T15:56:39.232 thread-0  net_plugin.cpp:2995           plugin_initialize    ] my node_id is c44d0b3212b24c2ae21cf736031bbb2f4abd3c91759ebf8dbe4265786d7f5572
+info  2019-01-18T15:56:39.232 thread-0  http_plugin.cpp:377           operator()           ] configured http with Access-Control-Allow-Origin: *
+info  2019-01-18T15:56:39.232 thread-0  main.cpp:107                  main                 ] nodeos version v1.5.1
+info  2019-01-18T15:56:39.232 thread-0  main.cpp:108                  main                 ] eosio root is /Users/prevwong/Library/Application Support
+info  2019-01-18T15:56:39.232 thread-0  main.cpp:109                  main                 ] nodeos using configuration file /Users/prevwong/Documents/EOS/contracts/eosio/config/config.ini
+info  2019-01-18T15:56:39.233 thread-0  main.cpp:110                  main                 ] nodeos data directory is /Users/prevwong/Documents/EOS/contracts/eosio/data
+info  2019-01-18T15:56:39.233 thread-0  chain_plugin.cpp:724          plugin_startup       ] starting chain in read/write mode
+info  2019-01-18T15:56:39.233 thread-0  chain_plugin.cpp:728          plugin_startup       ] Blockchain started; head block is #154930, genesis timestamp is 2018-06-01T12:00:00.000
+info  2019-01-18T15:56:39.233 thread-0  producer_plugin.cpp:718       plugin_startup       ] producer plugin:  plugin_startup() begin
+info  2019-01-18T15:56:39.233 thread-0  producer_plugin.cpp:740       plugin_startup       ] Launching block production for 1 producers at 2019-01-18T15:56:39.233.
+warn  2019-01-18T15:56:39.242 thread-0  transaction_context.cp:108    deadline_timer       ] Using polled checktime; deadline timer too inaccurate: min:7us max:2533us mean:425us stddev:528us
+info  2019-01-18T15:56:39.275 thread-0  producer_plugin.cpp:752       plugin_startup       ] producer plugin:  plugin_startup() end
+info  2019-01-18T15:56:39.275 thread-0  http_plugin.cpp:486           plugin_startup       ] start listening for http requests
+info  2019-01-18T15:56:39.275 thread-0  chain_api_plugin.cpp:77       plugin_startup       ] starting chain_api_plugin
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/abi_bin_to_json
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/abi_json_to_bin
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_abi
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_account
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_block
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_block_header_state
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_code
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_code_hash
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_currency_balance
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_currency_stats
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_info
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_producer_schedule
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_producers
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_raw_abi
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_raw_code_and_abi
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_required_keys
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_scheduled_transactions
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_table_by_scope
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_table_rows
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/get_transaction_id
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/push_block
+info  2019-01-18T15:56:39.276 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/push_transaction
+info  2019-01-18T15:56:39.277 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/chain/push_transactions
+info  2019-01-18T15:56:39.277 thread-0  history_api_plugin.cpp:38     plugin_startup       ] starting history_api_plugin
+info  2019-01-18T15:56:39.277 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/history/get_actions
+info  2019-01-18T15:56:39.277 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/history/get_controlled_accounts
+info  2019-01-18T15:56:39.277 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/history/get_key_accounts
+info  2019-01-18T15:56:39.277 thread-0  http_plugin.cpp:554           add_handler          ] add api url: /v1/history/get_transaction
+info  2019-01-18T15:56:39.277 thread-0  net_plugin.cpp:3014           plugin_startup       ] starting listener, max clients is 25
+info  2019-01-18T15:56:39.516 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3324eceb9d... #154931 @ 2019-01-18T15:56:39.500 signed by eosio [trxs: 0, lib: 154930, confirmed: 0]
+info  2019-01-18T15:56:40.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3458941d3f... #154932 @ 2019-01-18T15:56:40.000 signed by eosio [trxs: 0, lib: 154931, confirmed: 0]
+info  2019-01-18T15:56:40.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d35218cfb98... #154933 @ 2019-01-18T15:56:40.500 signed by eosio [trxs: 0, lib: 154932, confirmed: 0]
+info  2019-01-18T15:56:41.004 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d36e7af6f87... #154934 @ 2019-01-18T15:56:41.000 signed by eosio [trxs: 0, lib: 154933, confirmed: 0]
+info  2019-01-18T15:56:41.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3757bdc4e2... #154935 @ 2019-01-18T15:56:41.500 signed by eosio [trxs: 0, lib: 154934, confirmed: 0]
+info  2019-01-18T15:56:42.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d380e98f4e3... #154936 @ 2019-01-18T15:56:42.000 signed by eosio [trxs: 0, lib: 154935, confirmed: 0]
+info  2019-01-18T15:56:42.523 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d398cfd4003... #154937 @ 2019-01-18T15:56:42.500 signed by eosio [trxs: 0, lib: 154936, confirmed: 0]
+info  2019-01-18T15:56:43.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3abba5d591... #154938 @ 2019-01-18T15:56:43.000 signed by eosio [trxs: 0, lib: 154937, confirmed: 0]
+info  2019-01-18T15:56:43.505 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3b45c738ee... #154939 @ 2019-01-18T15:56:43.500 signed by eosio [trxs: 0, lib: 154938, confirmed: 0]
+info  2019-01-18T15:56:44.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3c5fc2ae16... #154940 @ 2019-01-18T15:56:44.000 signed by eosio [trxs: 0, lib: 154939, confirmed: 0]
+info  2019-01-18T15:56:44.505 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3d01c3bbb8... #154941 @ 2019-01-18T15:56:44.500 signed by eosio [trxs: 0, lib: 154940, confirmed: 0]
+info  2019-01-18T15:56:45.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3ef0a8ecd5... #154942 @ 2019-01-18T15:56:45.000 signed by eosio [trxs: 0, lib: 154941, confirmed: 0]
+info  2019-01-18T15:56:45.506 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d3f78e666e5... #154943 @ 2019-01-18T15:56:45.500 signed by eosio [trxs: 0, lib: 154942, confirmed: 0]
+info  2019-01-18T15:56:46.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d405573550a... #154944 @ 2019-01-18T15:56:46.000 signed by eosio [trxs: 0, lib: 154943, confirmed: 0]
+info  2019-01-18T15:56:46.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d419780e0f3... #154945 @ 2019-01-18T15:56:46.500 signed by eosio [trxs: 0, lib: 154944, confirmed: 0]
+info  2019-01-18T15:56:47.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d4242725348... #154946 @ 2019-01-18T15:56:47.000 signed by eosio [trxs: 0, lib: 154945, confirmed: 0]
+info  2019-01-18T15:56:47.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d435a4c7258... #154947 @ 2019-01-18T15:56:47.500 signed by eosio [trxs: 0, lib: 154946, confirmed: 0]
+info  2019-01-18T15:56:48.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d444353a87f... #154948 @ 2019-01-18T15:56:48.000 signed by eosio [trxs: 0, lib: 154947, confirmed: 0]
+info  2019-01-18T15:56:48.501 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d458fde43b8... #154949 @ 2019-01-18T15:56:48.500 signed by eosio [trxs: 0, lib: 154948, confirmed: 0]
+info  2019-01-18T15:56:49.005 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d46e5e6cc86... #154950 @ 2019-01-18T15:56:49.000 signed by eosio [trxs: 0, lib: 154949, confirmed: 0]
+info  2019-01-18T15:56:49.501 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d47c27e88d9... #154951 @ 2019-01-18T15:56:49.500 signed by eosio [trxs: 0, lib: 154950, confirmed: 0]
+info  2019-01-18T15:56:50.006 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d484dc1cabe... #154952 @ 2019-01-18T15:56:50.000 signed by eosio [trxs: 0, lib: 154951, confirmed: 0]
+info  2019-01-18T15:56:50.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d49cb842be9... #154953 @ 2019-01-18T15:56:50.500 signed by eosio [trxs: 0, lib: 154952, confirmed: 0]
+info  2019-01-18T15:56:51.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d4a2d9dbcc4... #154954 @ 2019-01-18T15:56:51.000 signed by eosio [trxs: 0, lib: 154953, confirmed: 0]
+info  2019-01-18T15:56:51.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d4b00e0eb3d... #154955 @ 2019-01-18T15:56:51.500 signed by eosio [trxs: 0, lib: 154954, confirmed: 0]
+info  2019-01-18T15:56:52.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d4c28f6148f... #154956 @ 2019-01-18T15:56:52.000 signed by eosio [trxs: 0, lib: 154955, confirmed: 0]
+info  2019-01-18T15:56:52.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d4d9a9ea15f... #154957 @ 2019-01-18T15:56:52.500 signed by eosio [trxs: 0, lib: 154956, confirmed: 0]
+info  2019-01-18T15:56:53.000 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d4e4cd8d305... #154958 @ 2019-01-18T15:56:53.000 signed by eosio [trxs: 0, lib: 154957, confirmed: 0]
+info  2019-01-18T15:56:53.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d4f438b5d01... #154959 @ 2019-01-18T15:56:53.500 signed by eosio [trxs: 0, lib: 154958, confirmed: 0]
+info  2019-01-18T15:56:54.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d502b0b5ddb... #154960 @ 2019-01-18T15:56:54.000 signed by eosio [trxs: 0, lib: 154959, confirmed: 0]
+info  2019-01-18T15:56:54.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d51b6f2af8c... #154961 @ 2019-01-18T15:56:54.500 signed by eosio [trxs: 0, lib: 154960, confirmed: 0]
+info  2019-01-18T15:56:55.000 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d526b15f6db... #154962 @ 2019-01-18T15:56:55.000 signed by eosio [trxs: 0, lib: 154961, confirmed: 0]
+info  2019-01-18T15:56:55.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d53ad8dd8ad... #154963 @ 2019-01-18T15:56:55.500 signed by eosio [trxs: 0, lib: 154962, confirmed: 0]
+info  2019-01-18T15:56:56.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d54008a5e32... #154964 @ 2019-01-18T15:56:56.000 signed by eosio [trxs: 0, lib: 154963, confirmed: 0]
+info  2019-01-18T15:56:56.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d55a330cdc5... #154965 @ 2019-01-18T15:56:56.500 signed by eosio [trxs: 0, lib: 154964, confirmed: 0]
+info  2019-01-18T15:56:57.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d561b23d122... #154966 @ 2019-01-18T15:56:57.000 signed by eosio [trxs: 0, lib: 154965, confirmed: 0]
+info  2019-01-18T15:56:57.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d577fbd8424... #154967 @ 2019-01-18T15:56:57.500 signed by eosio [trxs: 0, lib: 154966, confirmed: 0]
+info  2019-01-18T15:56:58.004 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d5844ceebfb... #154968 @ 2019-01-18T15:56:58.000 signed by eosio [trxs: 0, lib: 154967, confirmed: 0]
+info  2019-01-18T15:56:58.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d594b597ba8... #154969 @ 2019-01-18T15:56:58.500 signed by eosio [trxs: 0, lib: 154968, confirmed: 0]
+info  2019-01-18T15:56:59.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d5acde97305... #154970 @ 2019-01-18T15:56:59.000 signed by eosio [trxs: 0, lib: 154969, confirmed: 0]
+info  2019-01-18T15:56:59.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d5b07634f40... #154971 @ 2019-01-18T15:56:59.500 signed by eosio [trxs: 0, lib: 154970, confirmed: 0]
+info  2019-01-18T15:57:00.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d5c7e2b7feb... #154972 @ 2019-01-18T15:57:00.000 signed by eosio [trxs: 0, lib: 154971, confirmed: 0]
+info  2019-01-18T15:57:00.541 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d5de43cecc9... #154973 @ 2019-01-18T15:57:00.500 signed by eosio [trxs: 0, lib: 154972, confirmed: 0]
+info  2019-01-18T15:57:01.005 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d5eb95d20d2... #154974 @ 2019-01-18T15:57:01.000 signed by eosio [trxs: 0, lib: 154973, confirmed: 0]
+info  2019-01-18T15:57:01.500 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d5f476aab00... #154975 @ 2019-01-18T15:57:01.500 signed by eosio [trxs: 0, lib: 154974, confirmed: 0]
+info  2019-01-18T15:57:02.005 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d60be694664... #154976 @ 2019-01-18T15:57:02.000 signed by eosio [trxs: 0, lib: 154975, confirmed: 0]
+info  2019-01-18T15:57:02.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d61f2af67d2... #154977 @ 2019-01-18T15:57:02.500 signed by eosio [trxs: 0, lib: 154976, confirmed: 0]
+info  2019-01-18T15:57:03.000 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6279abd0ca... #154978 @ 2019-01-18T15:57:03.000 signed by eosio [trxs: 0, lib: 154977, confirmed: 0]
+info  2019-01-18T15:57:03.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6365a459f3... #154979 @ 2019-01-18T15:57:03.500 signed by eosio [trxs: 0, lib: 154978, confirmed: 0]
+info  2019-01-18T15:57:04.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d64c11ce81b... #154980 @ 2019-01-18T15:57:04.000 signed by eosio [trxs: 0, lib: 154979, confirmed: 0]
+info  2019-01-18T15:57:04.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d651626bdff... #154981 @ 2019-01-18T15:57:04.500 signed by eosio [trxs: 0, lib: 154980, confirmed: 0]
+info  2019-01-18T15:57:05.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d66582e2e7c... #154982 @ 2019-01-18T15:57:05.000 signed by eosio [trxs: 0, lib: 154981, confirmed: 0]
+info  2019-01-18T15:57:05.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6785592598... #154983 @ 2019-01-18T15:57:05.500 signed by eosio [trxs: 0, lib: 154982, confirmed: 0]
+info  2019-01-18T15:57:06.000 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d685f05d1d4... #154984 @ 2019-01-18T15:57:06.000 signed by eosio [trxs: 0, lib: 154983, confirmed: 0]
+info  2019-01-18T15:57:06.500 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d69dd9b6cb0... #154985 @ 2019-01-18T15:57:06.500 signed by eosio [trxs: 0, lib: 154984, confirmed: 0]
+info  2019-01-18T15:57:07.004 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6a8d3886e2... #154986 @ 2019-01-18T15:57:07.000 signed by eosio [trxs: 0, lib: 154985, confirmed: 0]
+info  2019-01-18T15:57:07.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6b91608e77... #154987 @ 2019-01-18T15:57:07.500 signed by eosio [trxs: 0, lib: 154986, confirmed: 0]
+info  2019-01-18T15:57:08.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6c5db21dce... #154988 @ 2019-01-18T15:57:08.000 signed by eosio [trxs: 0, lib: 154987, confirmed: 0]
+info  2019-01-18T15:57:08.505 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6d6c7f7d24... #154989 @ 2019-01-18T15:57:08.500 signed by eosio [trxs: 0, lib: 154988, confirmed: 0]
+info  2019-01-18T15:57:09.005 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6e3e9e9830... #154990 @ 2019-01-18T15:57:09.000 signed by eosio [trxs: 0, lib: 154989, confirmed: 0]
+info  2019-01-18T15:57:09.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d6f763860af... #154991 @ 2019-01-18T15:57:09.500 signed by eosio [trxs: 0, lib: 154990, confirmed: 0]
+info  2019-01-18T15:57:10.004 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d70d5382cc4... #154992 @ 2019-01-18T15:57:10.000 signed by eosio [trxs: 0, lib: 154991, confirmed: 0]
+info  2019-01-18T15:57:10.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d711875960c... #154993 @ 2019-01-18T15:57:10.500 signed by eosio [trxs: 0, lib: 154992, confirmed: 0]
+info  2019-01-18T15:57:11.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d724f268019... #154994 @ 2019-01-18T15:57:11.000 signed by eosio [trxs: 0, lib: 154993, confirmed: 0]
+info  2019-01-18T15:57:11.501 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d73ad10635c... #154995 @ 2019-01-18T15:57:11.500 signed by eosio [trxs: 0, lib: 154994, confirmed: 0]
+info  2019-01-18T15:57:12.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d74cc8e1841... #154996 @ 2019-01-18T15:57:12.000 signed by eosio [trxs: 0, lib: 154995, confirmed: 0]
+info  2019-01-18T15:57:12.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7550f485dc... #154997 @ 2019-01-18T15:57:12.500 signed by eosio [trxs: 0, lib: 154996, confirmed: 0]
+info  2019-01-18T15:57:13.005 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7666acebfd... #154998 @ 2019-01-18T15:57:13.000 signed by eosio [trxs: 0, lib: 154997, confirmed: 0]
+info  2019-01-18T15:57:13.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d77e5b3e1c8... #154999 @ 2019-01-18T15:57:13.500 signed by eosio [trxs: 0, lib: 154998, confirmed: 0]
+info  2019-01-18T15:57:14.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d787eef7d5f... #155000 @ 2019-01-18T15:57:14.000 signed by eosio [trxs: 0, lib: 154999, confirmed: 0]
+info  2019-01-18T15:57:14.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d798481fb25... #155001 @ 2019-01-18T15:57:14.500 signed by eosio [trxs: 0, lib: 155000, confirmed: 0]
+info  2019-01-18T15:57:15.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7abb8e5eee... #155002 @ 2019-01-18T15:57:15.000 signed by eosio [trxs: 0, lib: 155001, confirmed: 0]
+info  2019-01-18T15:57:15.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7b008d37e6... #155003 @ 2019-01-18T15:57:15.500 signed by eosio [trxs: 0, lib: 155002, confirmed: 0]
+info  2019-01-18T15:57:16.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7c623f554e... #155004 @ 2019-01-18T15:57:16.000 signed by eosio [trxs: 0, lib: 155003, confirmed: 0]
+info  2019-01-18T15:57:16.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7d30e7a872... #155005 @ 2019-01-18T15:57:16.500 signed by eosio [trxs: 0, lib: 155004, confirmed: 0]
+info  2019-01-18T15:57:17.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7e053126e6... #155006 @ 2019-01-18T15:57:17.000 signed by eosio [trxs: 0, lib: 155005, confirmed: 0]
+info  2019-01-18T15:57:17.506 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d7fc7478ebb... #155007 @ 2019-01-18T15:57:17.500 signed by eosio [trxs: 0, lib: 155006, confirmed: 0]
+info  2019-01-18T15:57:18.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d80c4581c37... #155008 @ 2019-01-18T15:57:18.000 signed by eosio [trxs: 0, lib: 155007, confirmed: 0]
+info  2019-01-18T15:57:18.502 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d81a8a7ae1c... #155009 @ 2019-01-18T15:57:18.500 signed by eosio [trxs: 0, lib: 155008, confirmed: 0]
+info  2019-01-18T15:57:19.000 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d82b1d76d71... #155010 @ 2019-01-18T15:57:19.000 signed by eosio [trxs: 0, lib: 155009, confirmed: 0]
+info  2019-01-18T15:57:19.505 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d8314d167d6... #155011 @ 2019-01-18T15:57:19.500 signed by eosio [trxs: 0, lib: 155010, confirmed: 0]
+info  2019-01-18T15:57:20.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d84fc034f59... #155012 @ 2019-01-18T15:57:20.000 signed by eosio [trxs: 0, lib: 155011, confirmed: 0]
+info  2019-01-18T15:57:20.505 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d85f229e454... #155013 @ 2019-01-18T15:57:20.500 signed by eosio [trxs: 0, lib: 155012, confirmed: 0]
+info  2019-01-18T15:57:21.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d862283b6f9... #155014 @ 2019-01-18T15:57:21.000 signed by eosio [trxs: 0, lib: 155013, confirmed: 0]
+info  2019-01-18T15:57:21.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d87a1720939... #155015 @ 2019-01-18T15:57:21.500 signed by eosio [trxs: 0, lib: 155014, confirmed: 0]
+info  2019-01-18T15:57:22.002 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d882e3478ef... #155016 @ 2019-01-18T15:57:22.000 signed by eosio [trxs: 0, lib: 155015, confirmed: 0]
+info  2019-01-18T15:57:22.503 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d898609cc0b... #155017 @ 2019-01-18T15:57:22.500 signed by eosio [trxs: 0, lib: 155016, confirmed: 0]
+info  2019-01-18T15:57:23.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d8a223ce6ec... #155018 @ 2019-01-18T15:57:23.000 signed by eosio [trxs: 0, lib: 155017, confirmed: 0]
+info  2019-01-18T15:57:23.505 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d8b31f02769... #155019 @ 2019-01-18T15:57:23.500 signed by eosio [trxs: 0, lib: 155018, confirmed: 0]
+info  2019-01-18T15:57:24.001 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d8c3a1b2555... #155020 @ 2019-01-18T15:57:24.000 signed by eosio [trxs: 0, lib: 155019, confirmed: 0]
+info  2019-01-18T15:57:24.504 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d8dfe96b37e... #155021 @ 2019-01-18T15:57:24.500 signed by eosio [trxs: 0, lib: 155020, confirmed: 0]
+info  2019-01-18T15:57:25.003 thread-0  producer_plugin.cpp:1494      produce_block        ] Produced block 00025d8e77478cf7... #155022 @ 2019-01-18T15:57:25.000 signed by eosio [trxs: 0, lib: 155021, confirmed: 0]
+info  2019-01-18T16:06:21.710 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-01-18T16:06:21.727 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-01-18T16:06:21.727 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-01-18T16:07:02.674 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-01-18T16:07:02.689 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-01-18T16:07:02.689 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-01-18T16:07:09.831 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-01-18T16:07:09.832 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-01-18T16:07:09.832 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-01-18T16:07:22.880 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+info  2019-01-18T16:07:22.880 thread-0  chain_plugin.cpp:507          plugin_initialize    ] Replay requested: deleting state database
+warn  2019-01-18T16:07:23.647 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-01-18T16:07:23.647 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-01-18T16:08:28.154 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+info  2019-01-18T16:08:28.154 thread-0  chain_plugin.cpp:507          plugin_initialize    ] Replay requested: deleting state database
+warn  2019-01-18T16:08:28.163 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-01-18T16:08:28.164 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-01-18T16:08:36.459 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-01-18T16:08:36.463 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-01-18T16:08:36.463 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-01-18T16:08:55.057 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+info  2019-01-18T16:08:55.057 thread-0  chain_plugin.cpp:487          plugin_initialize    ] Hard replay requested: deleting state database
+info  2019-01-18T16:08:55.058 thread-0  block_log.cpp:368             repair_log           ] Recovering Block Log...
+info  2019-01-18T16:08:55.058 thread-0  block_log.cpp:388             repair_log           ] Moved existing blocks directory to backup location: '/Users/prevwong/Documents/EOS/contracts/eosio/data/blocks-2019-01-18T16:08:55.058'
+info  2019-01-18T16:08:55.058 thread-0  block_log.cpp:393             repair_log           ] Reconstructing '/Users/prevwong/Documents/EOS/contracts/eosio/data/blocks/blocks.log' from backed up block log
+info  2019-01-18T16:08:57.705 thread-0  block_log.cpp:522             repair_log           ] Existing block log was undamaged. Recovered all irreversible blocks up to block number 155020.
+info  2019-01-18T16:08:57.707 thread-0  chain_plugin.cpp:815          recover_reversible_b ] Reconstructing '/Users/prevwong/Documents/EOS/contracts/eosio/data/blocks/reversible' from backed up reversible directory
+info  2019-01-18T16:08:57.709 thread-0  chain_plugin.cpp:867          recover_reversible_b ] Recovered 2 blocks from reversible block database: blocks 155021 to 155022
+info  2019-01-18T16:08:57.712 thread-0  block_log.cpp:134             open                 ] Log is nonempty
+info  2019-01-18T16:08:57.712 thread-0  block_log.cpp:178             open                 ] Index is empty
+info  2019-01-18T16:08:57.712 thread-0  block_log.cpp:330             construct_index      ] Reconstructing Block Log Index...
+info  2019-01-18T16:08:57.794 thread-0  http_plugin.cpp:422           plugin_initialize    ] configured http to listen on 127.0.0.1:8888
+warn  2019-01-18T16:08:57.794 thread-0  history_plugin.cpp:321        plugin_initialize    ] --filter-on * enabled. This can fill shared_mem, causing nodeos to stop.
+error 2019-01-18T16:08:57.798 thread-0  main.cpp:135                  main                 ] /data/job/libraries/appbase/application.cpp(327): Throw in function appbase::abstract_plugin &appbase::application::get_plugin(const string &) const
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error> >
+std::exception::what: unable to find plugin: eosio:chain_api_plugin
+

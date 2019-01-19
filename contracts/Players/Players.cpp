@@ -54,6 +54,19 @@ namespace Oasis {
 			} else {
 					print(" No Abilities");
 			}
+
+
+			if (currentPlayer.inventory.size() > 0) {
+					print(" Items: ");
+
+					for (uint32_t i = 0; i < currentPlayer.inventory.size(); i++) {
+							item currentItem = currentPlayer.inventory.at(i);
+							print(currentItem.name.c_str(), " == ");
+					}
+			} else {
+					print(" Empty inventory");
+			}
+
 		}
 
 		void Players::addability(const name account, string& ability) {
@@ -70,6 +83,7 @@ namespace Oasis {
 		}	
 	
 	void Players::additem(const name account, item purchased_item) {
+		require_auth(account);
 		playerIndex players(_code, _code.value);
 		auto iterator = players.find(account.value);
 		eosio_assert(iterator != players.end(), "Address for account not found");
